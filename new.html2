@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Web Page</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f8f8f8;">
+
+  <!-- Navigation Menu -->
+  <nav style="background: #333; padding: 10px;">
+    <a href="#home" style="color: white; margin: 10px; text-decoration: none;">Home</a>
+    <a href="#products" style="color: white; margin: 10px; text-decoration: none;">Products</a>
+    <a href="#offers" style="color: white; margin: 10px; text-decoration: none;">Offers</a>
+    <a href="#contact" style="color: white; margin: 10px; text-decoration: none;">Contact</a>
+  </nav>
+
+  <!-- Header -->
+  <header id="home" style="text-align: center; padding: 20px;">
+    <h1><u>Welcome to <b>ShopEasy</b></u></h1>
+    <p>Your one-stop shop for <i>electronics, fashion, and more!</i></p>
+  </header>
+
+  <!-- Product Section -->
+  <section id="products" style="padding: 20px;">
+    <h2>Our Top Products</h2>
+
+    <!-- Product 1 -->
+    <div>
+      <h3><b>Smartphone</b></h3>
+     <img src="https://pngimg.com/uploads/smartphone/smartphone_PNG8533.png" alt="Smartphone" width="200">
+
+      <p><b>Price:</b> <del>₹25,000</del> <ins>₹19,999</ins></p>
+      <p><i>Features:</i></p>
+      <ul>
+        <li>6.5" AMOLED Display</li>
+        <li>128GB Storage</li>
+        <li>48MP Camera</li>
+      </ul>
+      <a href="https://example.com/smartphone" target="_blank">Buy Now</a>
+    </div>
+
+    <hr>
+
+    <!-- Product 2 -->
+    <div>
+      <h3><b>Wireless Headphones</b></h3>
+      <img src="https://m.media-amazon.com/images/I/713vSnqDamL._SY355_.jpg" alt="Headphones" width="200">
+      <p><b>Price:</b> ₹2,499</p>
+      <ol>
+        <li>Noise Cancellation</li>
+        <li>40 Hours Battery</li>
+        <li>Bluetooth 5.0</li>
+      </ol>
+      <a href="https://example.com/headphones" target="_blank">Shop Now</a>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Offers Section -->
+  <section id="offers" style="padding: 20px;">
+    <h2>Special Offers</h2>
+    <p>🎉 <b>Festival Sale!</b> Get up to <mark>50% OFF</mark> on selected items.</p>
+    <video width="400" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <section id="contact" style="padding: 20px;">
+    <h2>Contact Us</h2>
+    <p>For support, email us at <a href="mailto:support@shopeasy.com">support@shopeasy.com</a></p>
+
+    <h3>Store Music 🎵</h3>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px;">
+    <p>&copy; 2025 ShopEasy | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
